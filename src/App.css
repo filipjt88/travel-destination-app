@@ -6,6 +6,12 @@
   font-family: 'Raleway', sans-serif;
 }
 
+.container {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: #eee;
+}
+
 .wrapper {
   display: flex;
   flex-wrap: wrap;
@@ -20,4 +26,11 @@
   height: 200px;
   width: 100%;
   object-fit: cover;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  color: #eee;
 }

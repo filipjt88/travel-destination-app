@@ -1,6 +1,7 @@
 import './App.css';
 import { Navbar } from './Components/Navbar';
-import { Header } from './Components/Header';
+import { Sidebar } from './Components/Sidebar';
+import { Footer } from './Components/Footer';
 
 function App() {
   const destinations = [
@@ -83,8 +84,9 @@ function App() {
       <div className="row">
         <h1 className="text-center mt-5">All destinations</h1>
         <div className="wrapper">
-          <Header desc={destinations} />
+          <Sidebar desc={destinations} />
         </div>
+        <Footer/>
       </div>
     </div>
   );
