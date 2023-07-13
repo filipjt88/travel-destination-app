@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box ;
+  font-family: 'Raleway', sans-serif;
+}
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+    margin-left: 20px;
+    margin-top: 40px;
+}
+
+.card-body img {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+}
